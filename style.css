@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pantalla {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#pantalla-bienvenida h2 {
+  margin-bottom: 20px;
+}
+
+#btn-continuar {
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
